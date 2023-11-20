@@ -103,3 +103,1184 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 636ms (Views: 633.3ms | ActiveRecord: 0.0ms | Allocations: 140679)
 
 
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:05:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 46461)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms | Allocations: 50334)
+
+
+  
+ActionView::Template::Error (Missing partial welcome/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:05:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 7213)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 8000)
+
+
+  
+ActionView::Template::Error (Missing partial welcome/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render partial: "header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:05:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 6953)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 7743)
+
+
+  
+ActionView::Template::Error (undefined method `partial' for #<ActionView::Base:0x0000000000c418>):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render partial "header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:06:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 7189)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 7977)
+
+
+  
+ActionView::Template::Error (Missing partial welcome/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:06:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 7109)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 7897)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "shared/header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:07:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 45549)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 49422)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "shared/header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:07:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 7113)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 7900)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <% render "shared/header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:07:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 7107)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 7895)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/chris/code/devsite/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/chris/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "shared/header" %>
+    15:     <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:07:38 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6274)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 7137)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:09:37 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6269)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 7078)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:10:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 6277)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 7086)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:10:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 5712)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 5972)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:12:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6464)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7272)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:12:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 5767)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 6026)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:14:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 6296)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 7104)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:14:45 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 6293)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 7102)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:14:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6275)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 7084)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:15:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6320)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 7131)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:16:14 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 110)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 195)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 6365)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 7179)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-11-20 15:16:15 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:6
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1279)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 33)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 6956)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 8358)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-11-20 15:16:27 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:6
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1024)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 7114)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 7963)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:16:28 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 5959)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 6521)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:16:57 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6391)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 7201)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:17:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6362)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 7172)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:17:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6379)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7189)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:21:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 60443)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms | Allocations: 64316)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:21:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 30430)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 30666)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:21:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 37026)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 37263)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:22:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 295)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 287)
+  Rendered layout layouts/application.html.erb (Duration: 812.6ms | Allocations: 204323)
+Completed 200 OK in 816ms (Views: 813.8ms | ActiveRecord: 0.0ms | Allocations: 208251)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:24:00 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 215)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6440)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 7254)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:24:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6449)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 7261)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:25:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6461)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7273)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:26:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6458)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 7268)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:33:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 6460)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 7270)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:33:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 5831)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 6093)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-11-20 15:33:54 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:6
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1286)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 7040)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 8395)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:33:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 5825)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6085)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-11-20 15:33:55 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:6
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 794)
+  Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6443)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.1ms | Allocations: 6719)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:33:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 5831)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 6090)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:34:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6457)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7269)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:38:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 295)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 352)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 53370)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 57312)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 15:38:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 6538)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 7350)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:38:48 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 102)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6062)
+Completed 200 OK in 10ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 6382)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:39:34 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 595.4ms | Allocations: 92786)
+Completed 200 OK in 596ms (Views: 595.7ms | ActiveRecord: 0.0ms | Allocations: 93044)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:40:02 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 106)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6530)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 7343)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:41:17 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 107)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 293)
+  Rendered layout layouts/application.html.erb (Duration: 485.2ms | Allocations: 90388)
+Completed 200 OK in 486ms (Views: 485.9ms | ActiveRecord: 0.0ms | Allocations: 91201)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:43:53 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6544)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 7359)
+
+
+Started GET "/images/chris.jfif" for 127.0.0.1 at 2023-11-20 15:43:53 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/chris.jfif"):
+  
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:44:04 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 293)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6555)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 7368)
+
+
+Started GET "/images/chris.jfif" for 127.0.0.1 at 2023-11-20 15:44:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/chris.jfif"):
+  
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:44:47 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1943)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 2032)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2841)
+
+
+  
+ActionView::Template::Error (The asset "images/chris.jfif" is not present in the asset pipeline.
+):
+    3:         <div class="box_content">
+    4:             <div class="media">
+    5:                 <div class="d-flex">
+    6:                     <%= image_tag "images/chris.jfif" %>
+    7:                 </div>
+    8:             </div>
+    9:         </div>
+  
+app/views/welcome/about.html.erb:6
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:44:57 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 16.3ms | Allocations: 30116)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 36382)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 37192)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:46:08 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 462.0ms | Allocations: 90092)
+Completed 200 OK in 462ms (Views: 462.3ms | ActiveRecord: 0.0ms | Allocations: 90351)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:46:26 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 457.3ms | Allocations: 90076)
+Completed 200 OK in 458ms (Views: 457.6ms | ActiveRecord: 0.0ms | Allocations: 90333)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:47:02 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 482.4ms | Allocations: 90092)
+Completed 200 OK in 483ms (Views: 482.7ms | ActiveRecord: 0.0ms | Allocations: 90349)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:47:34 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 443.3ms | Allocations: 90109)
+Completed 200 OK in 444ms (Views: 443.5ms | ActiveRecord: 0.0ms | Allocations: 90366)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:49:40 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 699)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 6976)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 7790)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:49:50 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 692)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6967)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 7778)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:50:43 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 447.0ms | Allocations: 90095)
+Completed 200 OK in 447ms (Views: 447.2ms | ActiveRecord: 0.0ms | Allocations: 90353)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:51:11 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 453.4ms | Allocations: 90083)
+Completed 200 OK in 454ms (Views: 453.7ms | ActiveRecord: 0.0ms | Allocations: 90340)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:52:33 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 460.3ms | Allocations: 90070)
+Completed 200 OK in 461ms (Views: 460.5ms | ActiveRecord: 0.0ms | Allocations: 90327)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:54:06 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 455.4ms | Allocations: 90075)
+Completed 200 OK in 456ms (Views: 455.6ms | ActiveRecord: 0.0ms | Allocations: 90332)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:54:17 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 488.0ms | Allocations: 90109)
+Completed 200 OK in 488ms (Views: 488.3ms | ActiveRecord: 0.0ms | Allocations: 90366)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:55:04 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 702)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 6953)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 7766)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:57:02 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 695)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6967)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 7778)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:57:14 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 453.0ms | Allocations: 90098)
+Completed 200 OK in 453ms (Views: 453.3ms | ActiveRecord: 0.0ms | Allocations: 90356)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:57:24 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 452.6ms | Allocations: 90075)
+Completed 200 OK in 453ms (Views: 452.8ms | ActiveRecord: 0.0ms | Allocations: 90332)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:57:43 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 702)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6971)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 7784)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:58:40 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 459.8ms | Allocations: 90089)
+Completed 200 OK in 460ms (Views: 460.0ms | ActiveRecord: 0.0ms | Allocations: 90347)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:58:47 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6293)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6550)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:58:57 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 450.2ms | Allocations: 90091)
+Completed 200 OK in 451ms (Views: 450.4ms | ActiveRecord: 0.0ms | Allocations: 90348)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 15:59:27 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 701)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 450.7ms | Allocations: 90802)
+Completed 200 OK in 452ms (Views: 451.4ms | ActiveRecord: 0.0ms | Allocations: 91615)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 17:57:56 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 457.0ms | Allocations: 90100)
+Completed 200 OK in 458ms (Views: 457.5ms | ActiveRecord: 0.0ms | Allocations: 90358)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 17:58:22 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 702)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 6971)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 7784)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 17:59:51 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 451.5ms | Allocations: 90085)
+Completed 200 OK in 452ms (Views: 451.7ms | ActiveRecord: 0.0ms | Allocations: 90343)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:00:10 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 446.3ms | Allocations: 90077)
+Completed 200 OK in 447ms (Views: 446.6ms | ActiveRecord: 0.0ms | Allocations: 90334)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:00:23 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 1.2ms | Allocations: 707)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 6981)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 7795)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:00:42 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 477.9ms | Allocations: 90136)
+Completed 200 OK in 478ms (Views: 478.1ms | ActiveRecord: 0.0ms | Allocations: 90394)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:01:08 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6308)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 6565)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:01:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 30.2ms | Allocations: 39568)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 370)
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 63050)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms | Allocations: 66992)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:02:12 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 590.8ms | Allocations: 91005)
+Completed 200 OK in 591ms (Views: 591.2ms | ActiveRecord: 0.0ms | Allocations: 91265)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:04:38 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 482.2ms | Allocations: 90134)
+Completed 200 OK in 483ms (Views: 482.5ms | ActiveRecord: 0.0ms | Allocations: 90393)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:04:47 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 459.3ms | Allocations: 90116)
+Completed 200 OK in 460ms (Views: 459.5ms | ActiveRecord: 0.0ms | Allocations: 90373)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:05:07 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 705)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 6967)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 7782)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:05:50 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 701)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 295)
+  Rendered layout layouts/application.html.erb (Duration: 458.1ms | Allocations: 90826)
+Completed 200 OK in 459ms (Views: 458.8ms | ActiveRecord: 0.0ms | Allocations: 91637)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:07:45 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 705)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 6965)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 7779)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:08:08 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 704)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 290)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6976)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 7787)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:08:22 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 483.7ms | Allocations: 90130)
+Completed 200 OK in 484ms (Views: 484.0ms | ActiveRecord: 0.0ms | Allocations: 90388)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:08:28 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 443.4ms | Allocations: 90094)
+Completed 200 OK in 444ms (Views: 443.6ms | ActiveRecord: 0.0ms | Allocations: 90351)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:09:11 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 6267)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 6527)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 18:09:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 5960)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 6275)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-11-20 18:09:14 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:6
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1297)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 7101)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.2ms | Allocations: 8457)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:09:15 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 6242)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6502)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 18:09:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 5866)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 6125)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:09:19 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 518)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 6250)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 6509)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 18:09:20 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 5860)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 6120)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-11-20 18:09:21 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 6263)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 6522)
+
+
+Started GET "/posts" for 127.0.0.1 at 2023-11-20 18:09:21 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:6
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 764)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 6454)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.1ms | Allocations: 6729)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-20 18:09:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 5866)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 6125)
+
+

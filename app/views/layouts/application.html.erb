@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Devsite</title>
+    <title>Chris Simmons | Software Engineer, Educator, Musician</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "shared/header" %>
+    <div id="mainBody">
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

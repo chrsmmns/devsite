@@ -14,6 +14,9 @@ class PostsTest < ApplicationSystemTestCase
     visit posts_url
     click_on "New post"
 
+    fill_in "Content", with: @post.content
+    fill_in "Short desc", with: @post.short_desc
+    fill_in "Title", with: @post.title
     click_on "Create Post"
 
     assert_text "Post was successfully created"
@@ -24,6 +27,9 @@ class PostsTest < ApplicationSystemTestCase
     visit post_url(@post)
     click_on "Edit this post", match: :first
 
+    fill_in "Content", with: @post.content
+    fill_in "Short desc", with: @post.short_desc
+    fill_in "Title", with: @post.title
     click_on "Update Post"
 
     assert_text "Post was successfully updated"

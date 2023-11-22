@@ -1,8 +1,9 @@
 <p style="color: green"><%= notice %></p>
+<div id="posts">
+  <%= render @post %>
+</div>
 
-<%= render @post %>
-
-<div>
+<div class="admin_only">
   <%= link_to "Edit this post", edit_post_path(@post) %> |
   <%= link_to "Back to posts", posts_path %>
 

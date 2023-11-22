@@ -1,11 +1,21 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "responsive";
+@import "posts";
+
 
 #mainBody {
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     min-height: 90vh;
     padding-top: 1px;
 }
+
+//on an inner page
+// body.innerPage {
+//     .about_box {
+//         padding: 30px;
+//     }
+// }
 
 .about_box {
     margin-top: 30px;

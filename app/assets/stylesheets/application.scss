@@ -6,7 +6,7 @@
 
 #mainBody {
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    min-height: 90vh;
+    min-height: 100vh;
     padding-top: 1px;
 }
 
@@ -83,5 +83,16 @@
 
 
         }
+    }
+}
+
+.projects_wrapper {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    .card-img-top {
+        max-height: 250px;
     }
 }

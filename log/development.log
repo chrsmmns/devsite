@@ -3920,3 +3920,582 @@ Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms | Allocations: 989
   
 ActionController::RoutingError (No route matches [GET] "/..."):
   
+Started GET "/projects" for ::1 at 2023-11-22 11:42:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 311)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 442)
+  Rendered layout layouts/application.html.erb (Duration: 340.8ms | Allocations: 68209)
+Completed 200 OK in 456ms (Views: 342.2ms | ActiveRecord: 0.0ms | Allocations: 352303)
+
+
+Started GET "/..." for ::1 at 2023-11-22 11:42:28 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+Started GET "/projects" for ::1 at 2023-11-22 11:42:39 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 123)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 6745)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 7734)
+
+
+Started GET "/..." for ::1 at 2023-11-22 11:42:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+Started GET "/projects" for ::1 at 2023-11-22 11:43:11 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 122)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 364)
+  Rendered layout layouts/application.html.erb (Duration: 459.2ms | Allocations: 92094)
+Completed 200 OK in 460ms (Views: 459.9ms | ActiveRecord: 0.0ms | Allocations: 93084)
+
+
+Started GET "/..." for ::1 at 2023-11-22 11:43:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+Started GET "/projects" for ::1 at 2023-11-22 11:44:03 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 118)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 6738)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 7726)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:44:03 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 5998)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 6256)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:45:24 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 120)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6740)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7727)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:46:10 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 135)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 6748)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 7734)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:46:35 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 133)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6743)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 7752)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:47:18 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 133)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 6755)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 7741)
+
+
+Started GET "/images/pgnsoft_logo.png" for ::1 at 2023-11-22 11:47:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/pgnsoft_logo.png"):
+  
+Started GET "/projects" for ::1 at 2023-11-22 11:47:27 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 133)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 362)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 6760)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 7749)
+
+
+Started GET "/pgnsoft_logo.png" for ::1 at 2023-11-22 11:47:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/pgnsoft_logo.png"):
+  
+Started GET "/projects" for ::1 at 2023-11-22 11:47:30 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 136)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 360)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 6785)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 7777)
+
+
+Started GET "/pgnsoft_logo.png" for ::1 at 2023-11-22 11:47:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/pgnsoft_logo.png"):
+  
+Started GET "/projects" for ::1 at 2023-11-22 11:47:57 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 2220)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 2309)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 3296)
+
+
+  
+ActionView::Template::Error (The asset "pngsoft_logo.png" is not present in the asset pipeline.
+):
+    17:         </div>
+    18:         <div class="col-xs-12 col-md-6">
+    19:             <div class="card">
+    20:                 <%= image_tag "pngsoft_logo.png" %>
+    21:                 <div class="card-body">
+    22:                     <h5 class="card-title">PgnSoft.com</h5>
+    23:                     <p class="card-text">Under Construction</p>
+  
+app/views/projects/index.html.erb:20
+Started GET "/projects" for ::1 at 2023-11-22 11:48:22 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 31300)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 37749)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 38735)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:48:53 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 741)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 7196)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 8182)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:48:59 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 740)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 364)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 7221)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 8209)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:00 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 559)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 6453)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 6714)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:00 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 559)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6428)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6687)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:04 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 740)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 7186)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 8175)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:05 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 557)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 6446)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6706)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:13 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 740)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 7207)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 8193)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:23 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 741)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 362)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 7208)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 8196)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:49:37 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 743)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 7209)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 8199)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:50:06 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 742)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 7213)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 8203)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:51:36 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 753)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 7217)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 8204)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:52:10 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 753)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 7199)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 8186)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:52:35 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 557)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 455.5ms | Allocations: 91612)
+Completed 200 OK in 456ms (Views: 455.9ms | ActiveRecord: 0.0ms | Allocations: 91870)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:53:03 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1135)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1224)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2194)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 class="pageTitle">Projects</h1>
+
+<div class="about_box">
+    <div class="row projects_wrapper">
+        <div class="col-xs-12 col-md-6">
+            <div class="card">
+                <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_16/2674406/181206-school-lunch-line-ew-629p.jpg" class="card-img-top" alt="SchoolLunchDebt.org">
+                <div class="card-body">
+                    <h5 class="card-title">SchoolLunchDebt.org</h5>
+                    <p class="card-text">Under Construction - started October 2023</p>
+                    <p class="card-text">
+                    <br/>
+                    Started August 2020, beta launched in one district in FL. Progress stalled.</p>
+                    <a href="#" class="btn btn-primary disabled">(Coming Soon)</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="card">
+                <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_33/1360182/carpool-rules-today-main-180414.jpg" class="card-img-top" alt="School Pickup">
+                <div class="card-body">
+                    <h5 class="card-title">SchoolPickup.net</h5>
+                    <p class="card-text">Under Construction</p>
+                    <p class="card-text">A quick, easy way to automate school pickup to eliminate those busy lines and long waits at the end of the school day.
+                    <br/>
+                    Started August 2020, beta launched in one district in FL. Progress stalled.</p>
+                    <a href="#" class="btn btn-primary disabled">(Coming Soon)</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <div class="card">
+                <%= image_tag "pgnsoft_logo.png" class: "card-img-top"%>
+                <div class="card-body">
+                    <h5 class="card-title">PgnSoft.com</h5>
+                    <p class="card-text">Personal software consulting inspired by <a href="https://en.wikipedia.org/wiki/Cher_Ami" target="_blank">Cher Ami</a></p>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-primary disabled">(Coming Soon)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+):
+1:    <h1 class="pageTitle">Projects</h1>
+2:    
+3:    <div class="about_box">
+4:        <div class="row projects_wrapper">
+5:            <div class="col-xs-12 col-md-6">
+6:                <div class="card">
+7:                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_16/2674406/181206-school-lunch-line-ew-629p.jpg" class="card-img-top" alt="SchoolLunchDebt.org">
+8:                    <div class="card-body">
+9:                        <h5 class="card-title">SchoolLunchDebt.org</h5>
+10:                        <p class="card-text">Under Construction - started October 2023</p>
+11:                        <p class="card-text">
+12:                        <br/>
+13:                        Started August 2020, beta launched in one district in FL. Progress stalled.</p>
+14:                        <a href="#" class="btn btn-primary disabled">(Coming Soon)</a>
+15:                    </div>
+16:                </div>
+17:            </div>
+18:            <div class="col-xs-12 col-md-6">
+19:                <div class="card">
+20:                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_33/1360182/carpool-rules-today-main-180414.jpg" class="card-img-top" alt="School Pickup">
+21:                    <div class="card-body">
+22:                        <h5 class="card-title">SchoolPickup.net</h5>
+23:                        <p class="card-text">Under Construction</p>
+24:                        <p class="card-text">A quick, easy way to automate school pickup to eliminate those busy lines and long waits at the end of the school day.
+25:                        <br/>
+26:                        Started August 2020, beta launched in one district in FL. Progress stalled.</p>
+27:                        <a href="#" class="btn btn-primary disabled">(Coming Soon)</a>
+28:                    </div>
+29:                </div>
+30:            </div>
+31:            <div class="col-xs-12 col-md-6">
+32:                <div class="card">
+33:                    <%= image_tag "pgnsoft_logo.png" class: "card-img-top"%>
+34:                    <div class="card-body">
+35:                        <h5 class="card-title">PgnSoft.com</h5>
+36:                        <p class="card-text">Personal software consulting inspired by <a href="https://en.wikipedia.org/wiki/Cher_Ami" target="_blank">Cher Ami</a></p>
+37:                        <p class="card-text"></p>
+38:                        <a href="#" class="btn btn-primary disabled">(Coming Soon)</a>
+39:                    </div>
+40:                </div>
+41:            </div>
+42:        </div>
+43:    </div>
+  
+app/views/projects/index.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/projects/index.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/projects/index.html.erb:33: syntax error, unexpected `class', expecting ')'
+app/views/projects/index.html.erb:33: syntax error, unexpected `class', expecting ')'
+Started GET "/projects" for ::1 at 2023-11-22 11:53:10 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 769)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 7223)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 8209)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:53:29 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 779)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 7234)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 8220)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:53:52 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 784)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 7241)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 8232)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:54:11 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 780)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 7236)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 8223)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:54:19 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 778)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 7230)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 8219)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:54:26 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 778)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 7231)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 8218)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:55:04 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 577)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 443.1ms | Allocations: 91628)
+Completed 200 OK in 443ms (Views: 443.3ms | ActiveRecord: 0.0ms | Allocations: 91886)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:55:22 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 579)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 463.3ms | Allocations: 91617)
+Completed 200 OK in 464ms (Views: 463.6ms | ActiveRecord: 0.0ms | Allocations: 91874)
+
+
+Started GET "/about" for ::1 at 2023-11-22 11:55:36 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered shared/_aboutme.html.erb (Duration: 1.3ms | Allocations: 713)
+  Rendered welcome/about.html.erb within layouts/application (Duration: 1.7ms | Allocations: 965)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6940)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 7585)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:55:38 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 579)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 6444)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 6704)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 11:58:18 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 18.0ms | Allocations: 32549)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 39008)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 39997)
+
+
+Started GET "/projects" for ::1 at 2023-11-22 12:17:02 -0500
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  Rendered projects/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1311)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 7794)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 8781)
+
+
+Started GET "/about" for ::1 at 2023-11-22 12:17:12 -0500
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered shared/_aboutme.html.erb (Duration: 0.5ms | Allocations: 716)
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 961)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6921)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 7486)
+
+
+Started GET "/" for ::1 at 2023-11-22 12:17:17 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered shared/_aboutme.html.erb (Duration: 0.5ms | Allocations: 531)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 710)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 6590)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 6907)
+
+
+Started GET "/posts" for ::1 at 2023-11-22 12:17:18 -0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:7
+  Rendered posts/_post_preview.html.erb (Duration: 0.4ms | Allocations: 284)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 49)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 49)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 49)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/_post_preview.html.erb (Duration: 0.0ms | Allocations: 50)
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 8122)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 14067)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 15463)
+
+
+Started GET "/" for ::1 at 2023-11-22 12:17:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered shared/_aboutme.html.erb (Duration: 1.0ms | Allocations: 527)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 593)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 6473)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6734)
+
+

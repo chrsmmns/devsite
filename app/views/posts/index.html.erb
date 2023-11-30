@@ -1,0 +1,21 @@
+<p><%= notice %></p>
+
+<h1>Posts</h1>
+
+<div id="posts">
+  <div class="row">
+      <% @posts.each do |post| %>
+        <div class="col-xs-12 col-sm-6 post_wrapper">
+
+          <div id="<%= dom_id post %>">
+            <%= render partial: "post_preview", locals: {post: post} %>
+          </div>
+        </div>
+      <% end %>
+
+  </div>
+</div>
+
+<div class="admin_only">
+  <%= link_to "New post", new_post_path %>
+</div>

@@ -1,0 +1,19 @@
+#posts {
+    .post_wrapper {
+        margin-bottom: 20px;
+    }
+    div[id^="post_"] {
+        background-color: #fff;
+        padding: 20px;
+
+
+        p > a {
+            color: red;
+        }
+    }
+}
+
+.admin_only {
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+}

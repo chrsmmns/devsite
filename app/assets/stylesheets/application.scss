@@ -1,5 +1,6 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "font-awesome";
 @import "responsive";
 @import "posts";
 
@@ -8,6 +9,13 @@
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     min-height: 100vh;
     padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.pageTitle {
+    color: rgba(255,255,255,0.5);
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 //on an inner page
@@ -19,7 +27,7 @@
 
 .about_box {
     margin-top: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     border-radius: 12px;
     position: relative;
     background: #fff;
@@ -40,7 +48,7 @@
                 vertical-align: middle;
                 border-style: none;
                 border-radius: 12px;
-                box-shadow: 0 10px 10px 0 rgb(153 153 153);
+                // box-shadow: 0 10px 10px 0 rgb(153 153 153);
             }
             .media-body {
                 margin-top: 30px;
@@ -94,5 +102,36 @@
     margin-bottom: 20px;
     .card-img-top {
         max-height: 250px;
+    }
+}
+
+
+//Lists
+
+ul.list {
+    li {
+        list-style: none;
+        i {
+            padding-right: 5px;
+        }
+    }
+}
+
+//Footer
+#footer {
+    color: rgba(255,255,255,0.5);
+    .footer_outer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer_inner {
+        .footer_nav {
+            p {
+                a {
+                    color: rgba(255,255,255,0.5);
+                }
+            }
+        }
     }
 }

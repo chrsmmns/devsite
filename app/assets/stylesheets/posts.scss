@@ -5,7 +5,8 @@
     div[id^="post_"] {
         background-color: #fff;
         padding: 20px;
-
+        box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+        border-radius: 12px;
 
         p > a {
             color: red;
@@ -16,4 +17,5 @@
 .admin_only {
     background-color: rgba(255,255,255,0.5);
     padding: 20px;
+    margin-top: 30px;
 }

@@ -3,20 +3,20 @@
 @import "font-awesome";
 @import "responsive";
 @import "posts";
+@import "fonts";
 
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 #mainBody {
     background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    min-height: 100vh;
     padding-top: 1px;
     padding-bottom: 30px;
 }
 
-.pageTitle {
-    color: rgba(255,255,255,0.5);
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
 
 //on an inner page
 // body.innerPage {
@@ -38,7 +38,7 @@
         vertical-align: middle;
         align-self: center;
         text-align: left;
-        padding: 20px;
+        padding: 20px 20px 0 20px;
 
         .media {
 
@@ -120,6 +120,10 @@ ul.list {
 //Footer
 #footer {
     color: rgba(255,255,255,0.5);
+    margin-top: auto;
+
+
+
     .footer_outer {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -134,4 +138,17 @@ ul.list {
             }
         }
     }
+
+    a {
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.center {
+    text-align: center;
 }

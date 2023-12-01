@@ -2,4 +2,15 @@
     .personal_text {
         text-align: center;
     }
+
+    ol, ul {
+        padding-left: unset;
+    }
+
+    .job {
+        ol, ul {
+            padding-left: 2rem;
+        }
+    }
+
 }

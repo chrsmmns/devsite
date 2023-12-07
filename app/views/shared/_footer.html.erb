@@ -9,6 +9,12 @@
             <div class="col-sm-12 col-md-3">
                 <div class="footer_nav">
                     <p><%= link_to "Home", root_path %></p>
+                    <% if current_user %>
+                        <p>Welcome, <%= current_user.name %></p>
+                        <p><a href="/logout">Log Out</a></p>
+                    <% else %>
+                        <p><a href="/login">Log In</a></p>
+                    <% end %>
                 </div>
             </div>
         </div>
